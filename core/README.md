@@ -42,7 +42,8 @@ to compare bytes with Electrum.
 This will build and start subzero in docker.
 
     git clone --recursive https://github.com/square/subzero.git
-    ./subzero/core/subzero-docker.sh run
+    cd subzero/core
+    ./subzero-docker.sh run
 
 # Developing in CLion
 Create a new project from this repo in CLion.
